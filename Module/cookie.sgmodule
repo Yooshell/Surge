@@ -1,0 +1,74 @@
+#!name=Cookies Module
+#!desc=iOS Cookies
+#!system=ios
+
+[Script]
+# NobyDa
+吾爱破解Cookie = type=http-request,pattern=https:\/\/www\.52pojie\.cn\/home\.php\?,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js,script-update-interval=0
+
+百度贴吧Cookie = type=http-request,pattern=https?:\/\/(c\.tieba\.baidu\.com|180\.97\.\d+\.\d+)\/c\/s\/login,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/BDTieBa-DailyBonus/TieBa.js
+
+哔哩漫画Cookie = type=http-request,pattern=^https:\/\/passport\.biligame\.com\/api\/login\/sso.+?version%22%3A%22(3|4|5),script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Bilibili-DailyBonus/Manga.js
+
+京东福利Cookie = type=http-request,pattern=https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
+
+快看漫画Cookie = type=http-request,pattern=^https:\/\/api\.kkmh\.com\/v\d\/passport\/user,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/KuaiKan-DailyBonus/KKMH.js
+
+爱奇会员Cookie = type=http-request,pattern=^https?:\/\/iface(\d)?\.iqiyi\.com\/,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
+
+# chavyleung
+
+美团吃货Cookie = type=http-request,pattern=^https:\/\/i.meituan.com\/evolve\/signin\/signpost\/,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.cookie.js, requires-body=true
+
+美团外卖Cookie = type=http-request,pattern=^https:\/\/promotion.waimai.meituan.com\/playcenter\/signIn\/entry,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wmmeituan/wmmeituan.cookie.js
+美团外卖Cookie = type=http-request,pattern=^https:\/\/promotion.waimai.meituan.com\/playcenter\/signIn\/doaction,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wmmeituan/wmmeituan.cookie.js,requires-body=true
+
+百果之园Cookie = type=http-request,pattern=^https:\/\/wx-mini.pagoda.com.cn\/api\/v1\/wxmini\/signIn\/customer,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/pagoda/pagoda.cookie.js
+
+网易音乐Cookie = type=http-request,pattern=^https:\/\/music.163.com\/weapi\/user\/level,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/neteasemusic.cookie.js,requires-body=true
+
+哔哩哔哩Cookie = type=http-request,pattern=^https:\/\/(www|live)\.bilibili\.com\/?.?,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.cookie.js
+
+樊登读书Cookie = type=http-request,pattern=^https://api\.dushu\.io/CheckIn,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/fandeng/fandeng.cookie.js, requires-body=true
+
+喜马拉雅Cookie = type=http-request,pattern=^https?:\/\/.*\/mobile\-user\/homePage\/.*,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/ximalaya/ximalaya.cookie.js
+
+威锋论坛Cookie = type=http-request,pattern=^https:\/\/(www\.)?feng\.com\/?.?,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/feng/feng.cookie.js
+
+创意社区Cookie = type=http-request,pattern=^https:\/\/www\.v2ex\.com\/mission\/daily,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/v2ex/v2ex.cookie.js
+
+金山文档Cookie = type=http-request,pattern=^https:\/\/zt.wps.cn\/2018\/docer_check_in\/api\/act_list,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wps/wps.cookie.js
+
+值得买么Cookie = type=http-request,pattern=^https:\/\/www\.smzdm\.com\/?.?,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/smzdm/smzdm.cookie.js
+
+开发社区Cookie = type=http-request,pattern=^https:\/\/passport.csdn.net\/v2\/api\/app\/login\/checkAndRefreshToken,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/csdn/csdn.cookie.js
+开发社区Cookie = type=http-request,pattern=^https:\/\/gw.csdn.net\/mini-app\/v2\/lucky_draw\/login\/sign_in\?,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/csdn/csdn.cookie.js
+
+
+顺丰速运Cookie = type=http-request,pattern=^https:\/\/sf-integral-sign-in.weixinjia.net\/app\/index,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/sfexpress/sfexpress.cookie.js
+顺丰速运Cookie = type=http-request,pattern=^https:\/\/mcs-mimp-web.sf-express.com\/mcs-mimp\/share\/(.*?)Redirect,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/sfexpress/sfexpress.cookie.js
+
+哈啰出行Cookie = type=http-request,pattern=^https:\/\/gameapi\.hellobike\.com\/api,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/hellobike/hellobike.js, requires-body=true
+
+# zZPiglet
+滴滴出行Cookie = type=http-request,pattern=^https:\/\/as\.xiaojukeji\.com\/ep\/as\/toggles\?,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi.js
+
+奈雪的茶Cookie = type=http-request,pattern=^https:\/\/webapi\.qmai\.cn\/web\/cy\/v\d\/store\/template-scene,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Naixue/Naixue.js
+
+# songyangzz
+饿了么你Cookie = type=http-request,pattern=^https:\/\/h5\.ele\.me\/restapi\/eus\/v\d\/current_user$,script-path=https://raw.githubusercontent.com/songyangzz/QuantumultX/master/elem/elemGetCookies.js
+
+快手极速Cookie = type=http-request,pattern=https:\/\/nebula\.kuaishou\.com\/nebula\/task\/earning\?,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/kuaishou.js
+
+# wangdelu2020
+陌陌极速Cookie = type=http-request,pattern=https:\/\/mk\.immomo\.com\/activity\/fastsign\/index\/signIn?,script-path=https://raw.githubusercontent.com/wangdelu2020/hongliyu/master/momosign.js
+
+趣走签到Cookie = type=http-request,pattern=https:\/\/mobile01\.91quzou\.com\/rebate\/qz\/task\/homeTaskView\.do,script-path=https://raw.githubusercontent.com/wangdelu2020/hongliyu/master/quwalk2.2.js
+
+实惠头条Cookie = type=http-request,pattern=https:\/\/api\.cashtoutiao\.com,script-path=https://raw.githubusercontent.com/wangdelu2020/hongliyu/master/htt_task_4.js
+
+趣看天下Cookie = type=http-request,pattern=http-request https:\/\/(appv8\.qukantianxia|appv7\.qukantx)\.com,script-path=https://raw.githubusercontent.com/wangdelu2020/hongliyu/master/qktx_task3.js
+
+
+[MITM]
+hostname = %APPEND% www.52pojie.cn, c.tieba.baidu.com, passport.biligame.com, api.m.jd.com, api.kkmh.com, ifac*.iqiyi.com, i.meituan.com, promotion.waimai.meituan.com, wx-mini.pagoda.com.cn, music.163.com, *.bilibili.com, api.dushu.io, mobwsa.ximalaya.com, *.feng.com, *.v2ex.com, zt.wps.cn, *.smzdm.com, *.csdn.net, sf-integral-sign-in.weixinjia.net, mcs-mimp-web.sf-express.com, gameapi.hellobike.com, as.xiaojukeji.com, webapi.qmai.cn, h5.ele.me, nebula.kuaishou.com, mk.immomo.com, mobile01.91quzou.com, api.cashtoutiao.com, appv8.qukantianxia.com, appv7.qukantx.com
