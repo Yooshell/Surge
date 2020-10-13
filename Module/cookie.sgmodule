@@ -1,5 +1,5 @@
-#!name=Cookies Module
-#!desc=iOS Cookies
+#!name= Module(Cookie)
+#!desc= Get Cookie
 #!system=ios
 
 [Script]
