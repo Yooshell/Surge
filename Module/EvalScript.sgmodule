@@ -1,4 +1,4 @@
-#!name= Module(EvalScript)
+#!name= Script(Eval)
 #!desc= Display Jingdong/Taobao Historical Price
 #!system=ios
 

@@ -1,4 +1,4 @@
-#!name= Module(SubStore)
+#!name= Application(SubStore)
 #!desc= Subscription Management Tools
 
 [MITM]
