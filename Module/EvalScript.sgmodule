@@ -1,5 +1,5 @@
 #!name= Module(EvalScript)
-#!desc= Display JD TB Historical Price
+#!desc= Display JD/TB Historical Price
 #!system=ios
 
 [MITM]
