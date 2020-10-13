@@ -1,7 +1,6 @@
-#!name= Module(DivineEngine)
-#!desc= TikTok Make Your Day Korea
+#!name= Module(TikTok)
+#!desc= Make Your Day Korea
 #!system=ios
-
 
 [URL Rewrite]
 ^https://api[\w-]*?.tiktokv.com/aweme/v\d/policy/notice/? - reject
