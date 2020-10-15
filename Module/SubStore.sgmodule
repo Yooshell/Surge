@@ -1,5 +1,5 @@
 #!name= Application SubStore
-#!desc= Subscription Management Tools
+#!desc= Subscription Tools
 
 [MITM]
 hostname=%APPEND% sub.store
