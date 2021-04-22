@@ -1,6 +1,6 @@
 
 /*
-Surge配置参考注释，感谢@asukanana,感谢@congcong.
+Surge配置参考注释，感谢@mieqq,感谢@asukanana,感谢@congcong.
 ----------------------------------------
 先将带有流量信息的订阅链接encode，用encode后的链接替换"url="后面的xxx，"reset_day="后面的数字替换成流量每月重置的日期，如1号就写1，8号就写8。
 
