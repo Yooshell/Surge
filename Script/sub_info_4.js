@@ -35,13 +35,13 @@ Sub_info = type=http-request,pattern=http://sub\.info,script-path=https://raw.gi
   let info_list = [`${used} ➠ ${total}`];
   
   if (day_left) {
-    info_list.push(`${day_left} 天${day_left == 1 ? "" : "后重置"}`);
+    info_list.push(`${day_left} 天${day_left == 1 ? "后重置" : "后重置"}`);
   }
   if (expire) {
     if (/^[\d]+$/.test(expire)) {
       expire = formatTimestamp(expire*1000);
     }
-    info_list.push(`${expire} 到期`);
+    info_list.push(`${expire}`);
   }
     sendNotification(usage, day_left, expire, params, info_list);
     let body = info_list.map(item => item + local_proxy).join("\n");
